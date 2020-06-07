@@ -1,0 +1,293 @@
+h2{
+    text-align: center;
+    font-size: 56px;
+    margin-top: 25px;
+}
+.weapon{
+    width: 300px;
+    height: 425px;
+    text-align: center;
+    background-image: url(images/ScorpionCollection_icon.png);
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+}
+.photo{
+    width: 100%;
+    height: 60%;
+    background-image: url(images/akrth.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.buy{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buy-button{
+    width: 175px;
+    height: 50px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+h4{
+    margin-top: -35px;
+}
+.buy-button:hover{
+    background-color: rgb(255, 177, 10);
+    color: white;
+}
+.popular{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.op{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+h1{
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 75%;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.poloska{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+@media (max-width: 800px){
+    .poloska{
+        display: block;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+}
+.f{
+    width: 300px;
+    height: 425px;
+    text-align: center;
+    background-image: url(images/Fable_Logo.png);
+    background-repeat: no-repeat;
+    background-position: 70px 50px;
+}
+.fr{
+    width: 300px;
+    height: 425px;
+    text-align: center;
+    background-image: url(images/icon_furious_collection.png);
+    background-repeat: no-repeat;
+    background-position: 40px 30px;
+
+}
+.r{
+    width: 300px;
+    height: 425px;
+    text-align: center;
+    background-image: url(images/icon_rival_collection.png);
+    background-repeat: no-repeat;
+    background-position: 75px 25px;
+}
+
+.o{
+    width: 300px;
+    height: 425px;
+    text-align: center;
+    background-image: url(images/origin_collection_icon.png);
+    background-repeat: no-repeat;
+    background-position: 80px 25px;
+}
+.ump{
+    background-image: url(images/weapons/IMG_2897.PNG);
+    background-size: 70%;
+}
+.mp{
+    background-image: url(images/weapons/IMG_2900.PNG);
+    background-size: 55%;
+}
+.fs{
+    background-image: url(images/weapons/IMG_2902.PNG);
+    background-size: 45%;
+}
+.m4s{
+    background-image: url(images/weapons/IMG_2903.PNG);
+    background-size: 100%;
+}
+.wid{
+    background-image: url(images/weapons/b3.PNG);
+    background-size: 85%;
+}
+.str{
+    background-image: url(images/weapons/b4.PNG);
+    background-size: 85%;
+}
+.dg{
+    background-image: url(images/weapons/b2.PNG);
+    background-size: 85%;
+}
+.legacy{
+    background-image: url(images/weapons/b1.PNG);
+    background-size: 85%;
+}
+.akr12{
+    background-image: url(images/weapons/IMG_4680.png);
+}
+.m4{
+    background-image: url(images/weapons/IMG_4683.png);
+}
+.awmd{
+    background-image: url(images/weapons/IMG_4684.png);
+}
+.akrd{
+    background-image: url(images/weapons/IMG_4686.png);
+}
+
+.veil{
+    background-image: url(images/weapons/IMG_4687.png);
+    background-size: 65%;
+}
+.scr{
+    background-image: url(images/weapons/IMG_4689.png);
+    background-size: 65%;
+}
+.star{
+    background-image: url(images/weapons/IMG_4690.png);
+    background-size: 65%;
+}
+.sea{
+    background-image: url(images/weapons/IMG_4691.png);
+    background-size: 65%;
+}
+
+.gf{
+    background-image: url(images/weapons/IMG_2856.png);
+    background-size: 45%;
+}
+.akrn{
+    background-image: url(images/weapons/IMG_2855.png);
+    background-size: 100%;
+}
+.umpb{
+    background-image: url(images/weapons/IMG_2859.png);
+    background-size: 70%;
+}
+.awmg{
+    background-image: url(images/weapons/IMG_2858.png);
+    background-size: 100%;
+}
+
+.anc{
+    background-image: url(images/weapons/jk1.png);
+    background-size: 85%;
+}
+.rep{
+    background-image: url(images/weapons/jk2.png);
+    background-size: 85%;
+}
+.lux{
+    background-image: url(images/weapons/jk4.png);
+    background-size: 85%;
+}
+.flo{
+    background-image: url(images/weapons/jk3.png);
+    background-size: 85%;
+}
+
+.akrs{
+    background-image: url(images/weapons/IMG_2838.png);
+}
+.umpw{
+    background-image: url(images/weapons/IMG_2839.png);
+    background-size: 70%;
+}
+.smn{
+    background-image: url(images/weapons/IMG_2841.png);
+    background-size: 95%;
+}
+.pfs{
+    background-image: url(images/weapons/IMG_2842.png);
+    background-size: 45%;
+}
+
+.kscr{
+    background-image: url(images/weapons/IMG_2846.png);
+    background-size: 75%;
+}
+.kun{
+    background-image: url(images/weapons/IMG_2847.png);
+    background-size: 75%;
+}
+.kdg{
+    background-image: url(images/weapons/IMG_2845.png);
+    background-size: 75%;
+}
+.kcl{
+    background-image: url(images/weapons/IMG_2844.png);
+    background-size: 75%;
+}
+
+.akr12r{
+    background-image: url(images/weapons/IMG_2827.png);
+}
+.m16w{
+    background-image: url(images/weapons/IMG_2829.png);
+}
+.gnes{
+    background-image: url(images/weapons/IMG_2830.png);
+    background-size: 45%;
+}
+.akrt{
+    background-image: url(images/weapons/IMG_2831.png);
+}
+
+.man{
+    background-image: url(images/weapons/m9_1.png);
+    background-size: 75%;
+}
+.mscr{
+    background-image: url(images/weapons/m9_2.png);
+    background-size: 75%;
+}
+.muni{
+    background-image: url(images/weapons/m9_3.png);
+    background-size: 75%;
+}
+.mdg{
+    background-image: url(images/weapons/m9_4.png);
+    background-size: 75%;
+}
+@media (max-width: 800px){
+    main{
+        display: block;
+    }
+    
+}
